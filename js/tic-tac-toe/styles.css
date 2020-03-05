@@ -1,0 +1,23 @@
+.game{
+    width:100vw;
+    height:100vh;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    display:flex;
+}
+.square{
+    width:128px;
+    height:128px;
+    border:2px solid #9E9E9E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square p{
+    font-size:36px;
+    font-weight:600;
+}
+.board-row{
+    display:flex;
+}
